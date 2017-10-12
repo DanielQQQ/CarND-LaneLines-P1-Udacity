@@ -52,6 +52,7 @@ Hough transform returns several small left and right lanes satifying the conditi
 ![alt text5][image5]
 
 ## Potential shortcomings
-Several thresholds and filters in the approach are hardcoded, and with changes in conditions such as lighting, these may not work as desired. 
+Several thresholds and filters in the approach are hardcoded, and with changes in conditions such as lighting and road slope, these may not work as desired. 
+Another issue is that curved lanes are detected as straight lines. It might be interesting to capture the curvature. 
 Further, the lane lines are jittery, introducing additional complexity in the process. 
 
